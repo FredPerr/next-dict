@@ -1,7 +1,7 @@
 {
-  "name": "typescript-npm-package-template",
+  "name": "next-dict",
   "version": "0.0.0-development",
-  "description": "A template for creating npm packages using TypeScript and VSCode",
+  "description": "Create typed localized dictionaries for your Next.js project to use on the client and server side without any runtime dependencies and check for missing keys at build time.",
   "main": "./lib/index.js",
   "files": [
     "lib/**/*"
@@ -23,28 +23,25 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Ryan Sonshine",
-    "email": "ryansonshine@users.noreply.github.com",
-    "url": "https://github.com/ryansonshine"
+    "name": "Frédéric Perron",
+    "email": "fredperr@users.noreply.github.com",
+    "url": "https://github.com/FredPerr"
   },
   "engines": {
-    "node": ">=12.0"
+    "node": ">=20.0"
   },
   "keywords": [
-    "boilerplate",
-    "template",
-    "typescript",
-    "vscode",
-    "jest",
-    "husky",
-    "commitizen",
-    "semantic-release",
-    "codecov"
+    "nextjs",
+    "internationalization",
+    "no-deps",
+    "dictionary",
+    "localization",
+    "lightweight"
   ],
   "bugs": {
-    "url": "https://github.com/ryansonshine/typescript-npm-package-template/issues"
+    "url": "https://github.com/FredPerr/next-dict/issues"
   },
-  "homepage": "https://github.com/ryansonshine/typescript-npm-package-template#readme",
+  "homepage": "https://github.com/FredPerr/next-dict",
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
